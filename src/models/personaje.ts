@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 export class Personaje {
     static serie = 'GoT';
     private _estadoVivo: boolean;
@@ -12,7 +13,7 @@ export class Personaje {
         public edad: number,
         public categoria: 'rey' | 'luchador' | 'asesor' | 'escudero'
     ) {
-        // this.nombre = nombre
+        // nombre = nombre
         this._estadoVivo = true;
         this.mensaje = '';
     }
